@@ -1,4 +1,5 @@
-#include <stndlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 
@@ -19,7 +20,7 @@ int main(void)
 	} 
 	else 
 	{
-		printf("%i is zero", n)
+		printf("%i is zero", n);
 	}
 	/* your code goes there */
 	return (0);
