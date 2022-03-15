@@ -6,6 +6,12 @@
 
 int main(void)
 {	
-	printf("_putchar\n");
+	char name[] = "_putchar";
+	int chr;
+	for (chr = 0; chr < 8; chr++)
+	{
+		_putchar(name[chr]);
+	}
+	_putchar('\n');
 	return (0);
 }
