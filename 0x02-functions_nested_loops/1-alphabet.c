@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - function for lowercase
+ * main - print function for lowercase
  *
  * Return: Always 0.
  */
