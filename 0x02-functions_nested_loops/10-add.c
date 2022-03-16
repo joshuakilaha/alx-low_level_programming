@@ -1,13 +1,17 @@
 #include "main.h"
 /**
 * Function - Adds two integers
-* resust = a + b
+* @a: first input
+* @b: second input
+*
+* resust: a + b
 * Returns result
 */
 
 int add(int a, int b)
 {
-	int result;	
+	int result;
+
 	result = a + b;
 	return (result);
 }
