@@ -5,7 +5,8 @@
 *	     character is uppercase or lowercase
 * @c: checks input of function
 *
-* Return: return 1 if 'c' is upper or lowercase otherwise return 0 (Success)		
+* Return: returns 1 if `c` is uppercase or lowercase
+*         otherwise always 0 (Success)
 */
 
 int _isalpha(int c)
