@@ -2,7 +2,7 @@
 
 /**
 * reset_to_98 - function that performs derefencing
-* @*n: character to be checked
+* @n: character to be checked
 * Return: 0
 */
 
