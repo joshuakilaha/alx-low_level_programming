@@ -2,8 +2,8 @@
 
 /**
 * swap_int - function that swaps two integers
-* @a - character to be checked
-* @b - character to be checked
+* @a: character to be checked
+* @b: character to be checked
 */
 
 void swap_int(int *a, int *b)
