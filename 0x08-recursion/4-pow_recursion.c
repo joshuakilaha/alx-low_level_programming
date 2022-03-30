@@ -8,6 +8,8 @@
 * @x: int
 * @y: power
 * Return: if y < 0 return -1
+*
+* return (pow(x, y)); //alternative with the math.h lib
 */
 
 int _pow_recursion(int x, int y)
@@ -18,7 +20,3 @@ int _pow_recursion(int x, int y)
 		return (1);
 	return (x * _pow_recursion(x, y -1));
 }
-
-/**
-* return (pow(x, y));
-*/
