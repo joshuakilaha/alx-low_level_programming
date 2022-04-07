@@ -17,7 +17,7 @@ int _strlen(char *string)
 }
 
 /**
- * string_nconcat - Function concatenate s1 and n bytes of s2; return ptr to string
+ * string_nconcat - Function concatenate two strings
  * @s1: string 1
  * @s2: string 2
  * @n: n bytes to concat from string 2
@@ -54,4 +54,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (ptr);
 }
-
